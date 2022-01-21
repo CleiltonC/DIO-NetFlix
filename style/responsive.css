@@ -1,0 +1,16 @@
+@media screen and (max-width: 700px) {
+  header .container {
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-top: 5px;
+  }
+}
+
+/* Exemplo, pois já limitei no proprio elemento */
+@media screen and (min-width: 1000px) {
+  .description {
+    width: 80%;
+  }
+}
